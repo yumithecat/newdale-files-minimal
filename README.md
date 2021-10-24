@@ -1,0 +1,1 @@
+# Newdale Minimal files 🗂️
