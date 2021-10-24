@@ -4,3 +4,5 @@ This is the Minimal version of the NewDale file server for easy use! I made this
 I am using:
 1. Material icons by google
 2. W3schools css design
+
+🛑NewDale stock is not included here!🛑
