@@ -6,10 +6,10 @@ I am using:
 2. W3schools css design
 
 I am doing:
-1.Popups
-2.Diagnostics
-3.Downloads
-4.something new... 
-5....probably 😅
+1. Popups
+2. Diagnostics
+3. Downloads
+4. something new... 
+5. ...probably 😅
 
 🛑NewDale stock is not included here!🛑
