@@ -5,26 +5,21 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="assets/RobotoMono-Thin.ttf" rel="stylesheet">
-    <title>Newdale minimal</title>
+    <title>Newdale minimal - D</title>
     <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png" />
 </head>
 
 <body class="w3-black">
-    <p><span class="w3-tag w3-teal w3-animate-left">New feature!</span></p>
     <div class="buttons-minimal">
-        <h1 style="text-align: center;" class="w3-animate-top">NewDale Minimal file server<span
-                class="material-icons">dns</span></h1>
+        <h1 style="text-align: center;" class="w3-animate-top">NewDale Minimal file server | Diagnostic</h1>
         <h4 style="text-align: center;" class="w3-animate-top">Download the file directly by pressing the corresponding
             button! If you want to see our source code click on the github button!</h4>
-        <a href="download/Tosplugin.zip" onclick="DSuccess()" class="w3-button w3-round-large w3-green w3-animate-zoom">Tvhee - Tosplugin</a>
-        <a href="download/NdStock.zip" onclick="DSuccess()" class="w3-button w3-round-large w3-green w3-animate-zoom">NewDale - Stock</a>
-        <a href="download/Damageperms.zip" onclick="DSuccess()" class="w3-button w3-round-large w3-green w3-animate-zoom">Lmaxplay -Damageperms</a>
     </div>
     <div class="buttons-link">
-        <a href="https://github.com/yumithecat/newdale-files-minimal"
-            class="w3-button w3-round-large w3-purple w3-animate-zoom">Github</a>
-        <a href="https://files.newdale.net" class="w3-button w3-round-large w3-purple w3-animate-zoom">Normal mode</a>
-        <a href="https://newdale.net" class="w3-button w3-round-large w3-purple w3-animate-zoom">Website</a>
+        <h4 style="text-align: center;">Popups (v1.0)</h4>
+        <a onclick="DSuccess()" class="w3-button w3-round-large w3-green w3-animate-zoom">Success popup</a>
+        <a onclick="DAbort()" class="w3-button w3-round-large w3-red w3-animate-zoom">Error popup</a>
+        <a onclick="Dn()" class="w3-button w3-round-large w3-purple w3-animate-zoom">Not available popup</a>
     </div>
     <div class="w3-panel w3-green w3-round-xlarge w3-animate-left" id="DSuccess">
         <h3 class="nd1">Success!</h3>
@@ -34,10 +29,14 @@
         <h3 class="nd1">Error!</h3>
         <h6 class="nd1">The file couldn't be downloaded from our servers!</h6>
     </div> 
+    <div class="w3-panel w3-purple w3-round-xlarge w3-animate-left" id="Dn">
+        <h3 class="nd1">Not available currently!</h3>
+        <h6 class="nd1">This file was removed or is temporary unavailable!</h6>
+    </div> 
     <div class="footer-minimal w3-animate-bottom">
         <p>Made by yumithecat | 2021<br>
             <a href="mailto:yumithecat@newdale.net">yumithecat@newdale.net</a>
-            <a class="diagnostic w3-display-bottomright w3-animate-right w3-padding" href="diagnostic.html">Diagnostic</a>
+            <a class="diagnostic w3-display-bottomright w3-animate-right w3-padding" href="index.html">Home</a>
         </p>
     </div>
     <script src="assets/app.js"></script>
