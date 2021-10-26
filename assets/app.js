@@ -18,3 +18,9 @@ function Dn() {
     document.getElementById("Dn").style.display = "block";
     setTimeout(function(){ document.getElementById("Dn").style.display = "none"; }, 3000);
 }
+
+document.getElementById("Ca").style.display = "none";
+
+function Ca() {
+    document.getElementById("Ca").style.display = "none";
+}
